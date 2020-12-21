@@ -50,9 +50,9 @@ public class HumanAgent implements Agent{
 	}
 
 	@Override
-	public Territory getMinTerritory() {
+	public int getMinTerritory() {
 		// TODO Auto-generated method stub
-		return null;
+		return 0;
 	}
 
 	@Override
