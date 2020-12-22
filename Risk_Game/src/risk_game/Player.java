@@ -26,7 +26,7 @@ public class Player {
     }
     
     public Territory getMinTPlayer() {
-	
+	  
 		int numberofarmies =0 ;
 		Territory t = null;
 		int minTerritory = owned_Territories.get(0).getNo_of_armies();
