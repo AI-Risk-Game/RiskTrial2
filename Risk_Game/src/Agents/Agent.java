@@ -6,6 +6,8 @@
 package Agents;
 
 import java.util.ArrayList;
+import java.util.List;
+
 import risk_game.Territory;
 
 /**
@@ -15,10 +17,10 @@ import risk_game.Territory;
 public interface Agent {
     public void attack();
     public String getName();
-	public void play();
-	public ArrayList<Territory> getTerritories();
+	public int play();
+	public List<Territory> getTerritories();
     public boolean canAttack();
-    public ArrayList<Territory> InitialNumberofArmies();
     public int getMinTerritory();
+    public int getMaxTerritory();
     public int getNumberofArmies();
 }

@@ -27,7 +27,7 @@ public class Panel extends JPanel{
     maps map;
     ArrayList<Territory> territories=null;
   public Panel() {
-    this.img = new ImageIcon("resources/wallpapper1.jpg").getImage();
+    this.img = new ImageIcon("resources/wall1.jpg").getImage();
     Dimension size = new Dimension(img.getWidth(null), img.getHeight(null));
     setPreferredSize(size);
     setMinimumSize(size);
